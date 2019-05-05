@@ -4,8 +4,8 @@
 
 
 
-preorder = "ABDHIEJKCFLMGNO"
-inorder = "HDIBJEKALFMCNGO"
+preorder = "ABCDEFGHI"
+inorder = "CBEDFAGIH"
 pre2 = "GDAFEMHZ"
 ino2 = "ADEFGHMZ"
 pre3 = "ADCEFGHB"
@@ -67,11 +67,11 @@ class NodeTree:
 
 if __name__ == '__main__':
     head = reorder(preorder, inorder)
-    head2 = reorder(pre2,ino2)
-    head3 = reorder(pre3, ino3)
+    #head2 = reorder(pre2,ino2)
+    #head3 = reorder(pre3, ino3)
     #to test if the tree is right
     #preorder_visit(head)
     #inorder_visit(head)
     postorder_visit(head)
-    postorder_visit(head2)
-    postorder_visit(head3)
+    #postorder_visit(head2)
+    #postorder_visit(head3)
